@@ -1,5 +1,5 @@
 {
-  "name": "binarta.angularx.bootstrap.mocks",
+  "name": "thinkerit.angularx.bootstrap.mocks",
   "main": "./src/angularx.bootstrap.mocks.js",
   "dependencies": {
     "angular": "1.2.5"
