@@ -21,6 +21,7 @@ function MockModalFactory() {
                 expect(spy.opened.length).toEqual(1);
             },
             template:assertOpened('template'),
+            templateUrl:assertOpened('templateUrl'),
             backdrop:assertOpened('backdrop'),
             scope:assertOpened('scope')
         },

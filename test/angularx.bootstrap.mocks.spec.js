@@ -23,6 +23,13 @@ describe('angularx.boostrap.mocks', function() {
             modal.opened.template('t');
         });
 
+        it('assert opened template url', function() {
+            modal.open({
+                templateUrl:'u'
+            });
+            modal.opened.templateUrl('u');
+        });
+
         it('assert opened backdrop', function() {
             modal.open({
                 backdrop:'b'
